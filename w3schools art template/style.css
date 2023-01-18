@@ -1,0 +1,120 @@
+/* reset start */
+
+@import url("https://fonts.googleapis.com/css2?family=Texturina:opsz,wght@12..72,400;12..72,500;12..72,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Texturina", serif;
+}
+
+a {
+  color: #000;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* reset end */
+
+/* header start */
+
+header {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  padding: 35px 30px;
+  background-color: #f9f9f9;
+}
+header a {
+  font-size: 36px;
+}
+
+/* header css  */
+
+/* grid start */
+
+.grid-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-row img {
+  width: 100%;
+}
+
+.grid-half:nth-child(2) img:nth-child(2) {
+  width: 100%;
+}
+
+@media screen and (max-width: 720px) {
+  .grid-row {
+    display: inline-block;
+  }
+}
+/* grid end */
+
+/* about start */
+.about {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.about h2 {
+  padding: 20px 0;
+}
+
+/* about end */
+
+/* form start */
+
+form {
+  width: 60%;
+  margin: auto;
+}
+
+form p {
+  margin: 10px;
+}
+form .form-box {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.form-box input {
+  width: 100%;
+  padding: 10px 0;
+  background-color: #fff;
+  border: 1px solid #808183;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  background-color: #616161;
+  color: #fff;
+}
+
+/* form end */
+
+/* footer start */
+
+footer {
+  margin-top: 30px;
+  margin-bottom: 70px;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer span {
+  font-size: 20px;
+}
+
+/* footer end */
